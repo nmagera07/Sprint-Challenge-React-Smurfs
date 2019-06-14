@@ -9,7 +9,7 @@ class SmurfForm extends Component {
         name: '',
         age: '',
         height: ''
-      } 
+      }
     };
   }
 
@@ -34,6 +34,10 @@ class SmurfForm extends Component {
       }
     });
   };
+
+  // handleInputChange = e => {
+  //   this.setState({ [e.target.name]: e.target.value });
+  // };
 
   render() {
     return (
