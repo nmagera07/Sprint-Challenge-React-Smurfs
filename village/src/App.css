@@ -36,7 +36,7 @@ form{
   justify-content: center;
   width: 15%;
   background-color: rgba(202, 27, 27, 0.726);
-  margin-top: 15px;
+  margin-top: 5px;
   border-radius: 5px;
   position: relative;
   left: 810px;
@@ -54,6 +54,7 @@ form button {
   height: 25px;
   width: 50%;
   margin-left: 70px;
+  outline: none;
 }
 
 .Smurfs {
@@ -84,4 +85,5 @@ form button {
   color: white;
   border-radius: 5px;
   height: 25px;
+  outline: none;
 }
