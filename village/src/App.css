@@ -1,3 +1,87 @@
 .App {
   text-align: center;
 }
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #62cdfd;
+  height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  color: rgba(202, 27, 27, 0.726);
+}
+
+img {
+  height: 300px;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.SmurfForm {
+  display: flex;
+  flex-direction: column;
+}
+form{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15%;
+  background-color: rgba(202, 27, 27, 0.726);
+  margin-top: 15px;
+  border-radius: 5px;
+  position: relative;
+  left: 810px;
+}
+
+input {
+  margin: 10px;
+  height: 25px;
+}
+
+form button {
+  background: #62cdfd;
+  color: white;
+  border-radius: 5px;
+  height: 25px;
+  width: 50%;
+  margin-left: 70px;
+}
+
+.Smurfs {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.Smurfs ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.smurf {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border: 1px solid rgba(202, 27, 27, 0.726);
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+  background-color: #62cdfd;
+}
+
+.smurf button {
+  width: 50%;
+  margin-left: 50px;
+  background-color: rgba(202, 27, 27, 0.726);
+  color: white;
+  border-radius: 5px;
+  height: 25px;
+}
